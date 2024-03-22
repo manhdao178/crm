@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Mulish', sans-serif !important;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  width: 100%;
+}
+
+.simplebar-vertical {
+  opacity: 50%;
+}
+
+.m-t-30 {
+  margin-top: 30px;
+}
+.m-l-15 {
+  margin-left: 15px;
+}
+
+.m-r-15 {
+  margin-right: 15px;
+}
+
+.m-r-35 {
+  margin-right: 35px;
+}
+
+.m-t-15 {
+  margin-top: 15px !important;
+}
